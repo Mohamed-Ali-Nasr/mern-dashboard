@@ -6,7 +6,7 @@
   "scripts": {
     "start": "npm run build && node dist/index.js",
     "dev": "tsnd --poll src/index.ts --respawn --transpile-only --exit-child",
-    "build": "rimraf ./dist && npx tsc"
+    "build": "rimraf dist && npx tsc"
   },
   "keywords": [],
   "author": "",
